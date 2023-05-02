@@ -1,0 +1,16 @@
+[package]
+name = "prefixtables-provider"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+async-trait = "0.1"
+log = "0.4"
+wasmbus-rpc = "0.13"
+sigscale-interface-prefix = { path="../prefix-tables/rust" }
+
+[[bin]]
+name = "prefixtables_provider"
+path = "src/main.rs"
+
