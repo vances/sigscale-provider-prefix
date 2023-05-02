@@ -8,7 +8,7 @@ resolver = "2"
 async-trait = "0.1"
 log = "0.4"
 wasmbus-rpc = "0.13"
-sigscale-interface-prefix = { path="../prefix-tables/rust" }
+sigscale-interface-prefix = { path="../sigscale-interface-prefix/rust" }
 
 [[bin]]
 name = "prefixtables_provider"
